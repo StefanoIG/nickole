@@ -1,0 +1,17 @@
+.root {
+  min-height: 100vh;
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-verde_23-2148370301.jpg?t=st=1698285024~exp=1698285624~hmac=a64a23a825aa5526f745fa1590ec5628a443e73feb5b937d820789607c08fac5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tutoria-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}

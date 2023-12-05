@@ -1,0 +1,92 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-verde_23-2148370301.jpg?t=st=1698285024~exp=1698285624~hmac=a64a23a825aa5526f745fa1590ec5628a443e73feb5b937d820789607c08fac5);
+  background-repeat: repeat;
+  background-size: cover;
+  height: auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+}
+
+li {
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+#logo {
+  width: 100px;
+  height: auto;
+}
+.context-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+.card {
+  text-align: center;
+  padding: 20px 20px;
+  background-color: rgb(121, 255, 121);
+  border-radius: 5px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-card {
+  text-align: center;
+  background-color: rgb(121, 255, 121);
+  padding: 20px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 40px 0 30px 0;
+}
+.img-container > img{
+  width: 80px;
+  height: auto;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  min-height: 200px;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+footer {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(121, 255, 121);
+  margin-top: 40px;
+  text-align: center;
+  padding: 30px 0;
+}

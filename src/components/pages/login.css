@@ -1,0 +1,37 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-verde_23-2148370301.jpg?t=st=1698285024~exp=1698285624~hmac=a64a23a825aa5526f745fa1590ec5628a443e73feb5b937d820789607c08fac5);
+  width: 100%;
+
+}
+form > div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+.form-container {
+  width: 300px;
+  height: auto;
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 5px;
+}
+input {
+  padding: 10px 20px;
+}
+button {
+  background-color: rgb(121, 255, 121);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
